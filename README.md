@@ -1,5 +1,18 @@
 # vietfrontier
 
+## Demo
+
+[![VietFrontier terminal demo](docs/demo.png)](docs/demo.mp4)
+
+Sau khi khởi chạy thành công, bạn sẽ thấy:
+
+- prompt để nhập mã, nguồn dữ liệu, khoảng thời gian `start date` và `end date`, `objective`, return/risk model, và các tham số tối ưu.
+- biểu đồ terminal-native:
+  `efficient frontier` + `Monte Carlo` + điểm tối ưu cho các objective mean-variance.
+- biểu đồ cột tỷ trọng cho `hrp`nếu chọn chiến lược tối ưu là **HRP**
+- Báo cáo được trình bày ngay trên terminal :
+  weights theo mã và performance của danh mục.
+
 Tối ưu danh mục chứng khoán Việt Nam trong terminal bằng `vnstock`: lấy dữ liệu giá lịch sử, chạy chạy thuật toán tối ưu, rồi hiển thị **đường biên hiệu quả**, và trực quan hoá các danh mục kém hiệu quả bằng **mô phỏng Monte Carlo** , điểm tối ưu, và tỷ trọng danh mục chứng khoán ngay trên terminal.
 
 `VietFrontier` hướng tới trở thành công cụ nghiên cứu danh mục cổ phiếu Việt Nam chạy trong terminal, giúp cộng đồng Python và `vnstock` thử nghiệm các chiến lược phân bổ danh mục một cách nhanh chóng và trực quan.
@@ -63,19 +76,6 @@ Trong trường hợp đó, tổng kết quả danh mục vẫn có thể kém v
 - Cho phép chọn `return model` và `risk model` cho các bài toán mean-variance.
 - Vẽ `efficient frontier`, `Monte Carlo` cloud, và điểm tối ưu ngay trong terminal bằng `plotext`.
 - In bảng tỷ trọng và hiệu suất danh mục bằng `rich`.
-
-## Demo
-
-<!-- TODO: Add terminal GIF or screenshot showing: prompt flow -> frontier chart -> weights/performance tables -->
-
-Sau khi khởi chạy thành công, bạn sẽ thấy:
-
-- prompt để nhập mã, nguồn dữ liệu, khoảng thời gian `start date` và `end date`, `objective`, return/risk model, và các tham số tối ưu.
-- biểu đồ terminal-native:
-  `efficient frontier` + `Monte Carlo` + điểm tối ưu cho các objective mean-variance.
-- biểu đồ cột tỷ trọng cho `hrp`nếu chọn chiến lược tối ưu là **HRP**
-- Báo cáo được trình bày ngay trên terminal :
-  weights theo mã và performance của danh mục.
 
 ## Cài đặt
 
