@@ -2,7 +2,7 @@
 
 ## Demo
 
-[![VietFrontier terminal demo](docs/demo.png)](docs/demo.mp4)
+[![VietFrontier terminal demo](docs/demo.png)](https://youtu.be/UKSzqkUk1nw)
 
 Sau khi khởi chạy thành công, bạn sẽ thấy:
 
